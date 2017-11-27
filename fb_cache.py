@@ -8,7 +8,8 @@ import errno
 
 path = '/Users/VibhorSood/Library/Caches/com.apple.Safari/WebKitCache/Version 11/Blobs/*'
 path2 = '/Users/VibhorSood/Library/Caches/com.apple.Safari/fsCachedData/*'
-rootdir = '/Users/VibhorSood/Library/Caches/com.apple.Safari/WebKitCache/Version 11/Records'
+rootdir = '/Users/VibhorSood/Library/Caches/com.apple.Safari/'
+
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
