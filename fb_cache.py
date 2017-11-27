@@ -7,6 +7,11 @@ import glob
 import errno
 
 rootdir = '/Users/VibhorSood/Library/Safari/'
+<<<<<<< HEAD
+=======
+#Removing Facebook cache from all folders under Safari
+
+>>>>>>> cf53370502acd3eee9ceb4d79af33f92159d09fb
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:
         filepath = os.path.join(subdir,file)
