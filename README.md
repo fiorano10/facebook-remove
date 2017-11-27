@@ -7,6 +7,7 @@ To run it periodically, use crontab.
 crontab -e
 ```
 this should open an Editor. There you can type
+
 2. For every hour:
 ```
 crontab 0 * * * * /path/to/script
