@@ -14,7 +14,7 @@ crontab 0 * * * * /path/to/script
 ```
 3. For every minute:
 ```
-crontab * * * * * /path/to/script
+crontab */1 * * * * /path/to/script
 ```
 And to see your crontabs
 ```
